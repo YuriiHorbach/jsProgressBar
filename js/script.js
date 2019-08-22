@@ -16,7 +16,7 @@ var blockCurrentSum = document.querySelector('.blockCurrentSum');
 blockCurrentSum.innerHTML = 'Вже зібрали: ' + currentValue + ' грн.';
 
 var blockMaxSum = document.querySelector('.blockMaxSum');
-blockMaxSum.innerHTML ='Наша мета зібрати: ' + maxValue + ' грн.';
+blockMaxSum.innerHTML ='Наша мета - зібрати ' + maxValue + ' грн.';
 
 
 
