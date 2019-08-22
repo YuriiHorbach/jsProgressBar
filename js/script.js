@@ -13,7 +13,7 @@ var progressBar = document.querySelector('#user-progress');
 progressBar.value = res.toFixed(1);
 
 var blockCurrentSum = document.querySelector('.blockCurrentSum');
-blockCurrentSum.innerHTML = 'Вже зібраьи: ' + currentValue + ' грн.';
+blockCurrentSum.innerHTML = 'Вже зібрали: ' + currentValue + ' грн.';
 
 var blockMaxSum = document.querySelector('.blockMaxSum');
 blockMaxSum.innerHTML ='Наша мета зібрати: ' + maxValue + ' грн.';
